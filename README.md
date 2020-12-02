@@ -11,14 +11,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Learn More
 
-### Example Page/View
+### Example
 
 ```js
 import component from '../core/Component.js';
 import Header from '../components/Header.js';
 
 const style =`
-    .coba {
+    .test {
         color: blue;
     }
 `
@@ -29,7 +29,7 @@ const Home = () => component({
 })
 `
     <Header/>
-    <h1 class="coba">Home page</h1>
+    <h1 class="test">Home page</h1>
 `
 
 export default Home;
